@@ -3,7 +3,7 @@ sap.ui.define(
     function (Component) {
         "use strict";
 
-        return Component.extend("com.applexus.dashboard.Component", {
+        return Component.extend("com.applexus.dts.dashboard.Component", {
             metadata: {
                 manifest: "json"
             }

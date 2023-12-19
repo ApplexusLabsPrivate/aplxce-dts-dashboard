@@ -1,7 +1,7 @@
 {
     "_version": "1.17.0",
     "sap.app": {
-        "id": "com.applexus.dashboard",
+        "id": "com.applexus.dts.dashboard",
         "type": "application",
         "i18n": "i18n/i18n.properties",
         "applicationVersion": {
@@ -77,7 +77,7 @@
             "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "settings": {
-                    "bundleName": "com.applexus.dashboard.i18n.i18n"
+                    "bundleName": "com.applexus.dts.dashboard.i18n.i18n"
                 }
             },
             "mainModel": {
