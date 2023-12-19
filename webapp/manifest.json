@@ -112,6 +112,9 @@
         "containerLayout": "resizable",
         "enableLiveFilter": true,
         "considerAnalyticalParameters": false,
+        "chartSettings": {
+            "showDataLabel": true
+        },
         "cards": {
             "DTS_card1": {
                 "template": "sap.ovp.cards.charts.analytical",
@@ -119,7 +122,11 @@
                 "settings": {
                     "title": "Record Count",
                     "entitySet": "card1Set",
-                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card1"
+                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card1",
+                    "defaultSpan":{
+                        "cols": 2,
+                        "rows": 0
+                    }
                 }
             },
             "DTS_card2": {
@@ -128,7 +135,11 @@
                 "settings": {
                     "title": "Record Count by Group",
                     "entitySet": "card2Set",
-                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card2"
+                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card2",
+                    "defaultSpan":{
+                        "cols": 2,
+                        "rows": 0
+                    }
                     
                 }
             },
@@ -138,7 +149,11 @@
                 "settings": {
                     "title": "Data Quality",
                     "entitySet": "card3Set",
-                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card3"
+                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card3",
+                    "defaultSpan":{
+                        "cols": 2,
+                        "rows": 0
+                    }
                     
                 }
             },
@@ -148,8 +163,11 @@
                 "settings": {
                     "title": "Volume",
                     "entitySet": "card4Set",
-                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card4"
-                    
+                    "chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#card4",
+                    "defaultSpan":{
+                        "cols": 2,
+                        "rows": 0
+                    }
                 }
             }
         }

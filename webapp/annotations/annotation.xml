@@ -89,6 +89,7 @@
                         <PropertyValue Property="Dimensions">
                             <Collection>
                                 <PropertyPath>Fieldname</PropertyPath>
+                                
                             </Collection>
                         </PropertyValue>
                         <PropertyValue Property="DimensionAttributes">
@@ -102,6 +103,7 @@
                         <PropertyValue Property="Measures">
                             <Collection>
                                 <PropertyPath>Good</PropertyPath>
+                                <PropertyPath>Bad</PropertyPath>
                             </Collection>
                         </PropertyValue>
                         <PropertyValue Property="MeasureAttributes">
@@ -109,6 +111,10 @@
                                 <Record Type="UI.ChartMeasureAttributeType">
                                     <PropertyValue Property="Measure" PropertyPath="Good"/>
                                     <PropertyValue Property="Role" EnumMember="UI.ChartMeasureRoleType/Axis1"/>
+                                </Record>
+                                <Record Type="UI.ChartMeasureAttributeType">
+                                    <PropertyValue Property="Measure" PropertyPath="Bad"/>
+                                    <PropertyValue Property="Role" EnumMember="UI.ChartMeasureRoleType/Axis2"/>
                                 </Record>
                             </Collection>
                         </PropertyValue>
